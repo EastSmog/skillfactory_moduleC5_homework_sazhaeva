@@ -1,0 +1,104 @@
+body {
+  background-color: gainsboro;
+}
+
+header {
+  display: flex;
+  background-color: ghostwhite;
+  justify-content: center;
+}
+
+h1 {
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: ghostwhite;
+}
+
+.wrapper {
+  margin: 1% 1%;
+  padding: 0 0;
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  margin: 0 0;
+  padding: 0 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  margin: 20px;
+}
+
+.card-image {
+  display: block;
+  width: 200px;
+  height: 150px;
+}
+
+.inp {
+  margin: 0 0 0 5%;
+  box-sizing: border-box;
+  width: 100px;
+  height: 30px;
+  border-color: darkred;
+  border-radius: 5px;
+}
+
+.btn {
+  box-sizing: border-box;
+  margin: 2% 0;
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  border-color: darkred;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+
+input:hover {
+  transform: scale(1.05);
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  display: flex;
+  background-color: ghostwhite;
+  justify-content: right;
+}
